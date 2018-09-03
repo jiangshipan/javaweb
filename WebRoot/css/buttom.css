@@ -1,0 +1,123 @@
+* {
+	-webkit-box-sizing:border-box;
+	box-sizing: border-box;
+	-webkit-transition:background 200ms;
+	-o-transition:background 200ms;
+	transition: background 200ms;
+}
+
+
+body{
+	font-size: 14px;
+	line-height: 1.7;
+	color: #444ffe;
+	background:#f5f5f5;
+}
+
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+	max-width: 100%;
+
+}
+
+.container{
+	display: block;
+	max-width:1080px;
+	margin: 0 auto; 
+}
+
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+.clear-float:after,
+.clear-float:before{
+	content:" ";
+	display: block;
+	clear:both;
+
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,{
+	display: block;
+	position: relative;
+	min-height: 1px;
+}
+
+.col-1{
+	width:10%;
+	float: left;
+}
+.col-2{
+	width:20%;
+	float: left;
+}
+
+.col-3{
+	width:30%;
+	float: left;
+}
+
+.col-4{
+	width:40%;
+	float: left;
+}
+
+.col-5{
+	width:50%;
+	float: left;
+}
+.col-6{
+	width:60%;
+	float: left;
+}
+
+.col-7{
+	width:70%;
+	float: left;
+}
+.col-8{
+	width:80%;
+	float: left;
+}
+
+.col-9{
+	width:90%;
+	float: left;
+}
+.cat-promote .title:before{
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width:5px;
+	height:22px;
+	background:#dd182b;
+	margin-right: 10px;
+}
+.cat-promote .title{
+	font-size:22px;
+}
+.cat-promote .item{
+
+	padding: 5px;
+}
+.cat-promote .card{
+	height:250px;
+	background:#ccc;
+	border-radius: 4px;
+	box-shadow: 0 2px 2px rgba(0,0,0,.1);
+}
